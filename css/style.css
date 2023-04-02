@@ -1,0 +1,40 @@
+.container {
+    width: 800px;
+    height: 600px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+}
+
+.topHeader {
+    width: 100%;
+    height: 20%;
+    background-color: aqua;
+}
+
+.mainCenter {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.leftMenu {
+    width: 20%;
+    height: 100%;
+    background-color: lightskyblue;
+}
+
+.mainScreen {
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 100%;
+    background-color: lightcoral;
+}
+
+.buttomFooter {
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+}
