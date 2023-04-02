@@ -1,0 +1,38 @@
+.mainContent {
+    width: 100%;
+    height: 100px;
+    background-color: #f2f2f2;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.postContent {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.postContent img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.postContent span:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.postContent span:nth-child(2) {
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.mainContent img {
+    width: 30px;
+    height: 30px;
+}
