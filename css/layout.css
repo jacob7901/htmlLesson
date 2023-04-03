@@ -1,0 +1,56 @@
+.main-background {
+    width: 100%;
+    height: 608px;
+    /* background-color: lightblue; */
+    background-image: url(../img/headlines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* 박스에 보정입히기 */
+    filter: brightness(100%);
+    padding: 1px;
+}
+/* width 사이즈를 줄이면 반복이 된다.  */
+/* 사이즈를 조정해라. cover */
+/* 가운데부터 배경을 채우던지 우측부터 채워라 */
+
+.main-title {
+    color: black;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 50px;
+    
+}
+
+.mainTextBox {
+    width: 400px;
+}
+
+.main-text {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.main-button {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 10px 40px;
+    background-color: #2639ED;
+    border: none;
+    color: white; 
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+.text-input {
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
