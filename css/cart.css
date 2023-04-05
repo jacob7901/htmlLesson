@@ -1,0 +1,9 @@
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    /* 테이블 항목 단 간격 없앰 - 엑셀표처럼 */
+    border-collapse: collapse;
+}
