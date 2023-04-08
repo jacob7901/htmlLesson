@@ -1,0 +1,50 @@
+.shop-bg {
+    background-color: #eee;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px;
+}
+
+.shop-container {
+    padding: 15px;
+}
+
+.shop-item {
+    display: flex;
+    justify-content: center;
+    /* padding: 10px; */  
+}
+
+.position-relative {
+    position: relative;
+    /* padding: 10px; */
+    margin: 10px;
+    /* border: 1px solid red; */
+}
+
+.overay {
+    width: 100%;
+    /* max-width: 200px; */
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 1.0);
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.overay:hover {
+    opacity: 1;
+    height: 50%;
+}
+
+img {
+    width: 100%;
+    /* max-width: 200px; */
+    /* display: block; */
+    /* box-sizing: border-box; */
+}
+
+.icon-container {
+    padding: 15px;
+    background-color: beige;
+}
